@@ -11,3 +11,10 @@
    git clone <repository-url>
    cd nft-project
    npm install
+
+## Dossier front:
+1. Clonez le projet :
+   ```bash
+   cd frontend
+   npm install
+   npm run start
