@@ -13,7 +13,7 @@
    npm install
 
 ## Dossier front:
-1. Clonez le projet :
+1. Lancer le front :
    ```bash
    cd frontend
    npm install
