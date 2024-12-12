@@ -1,0 +1,9 @@
+{
+    "name": "NFT #2",
+    "description": "Un NFT unique de ma collection",
+    "image": "https://bafybeihyjvbp6vlxp5qtglxwqfe4qrcwvyc7ugbeyiqbjv3kio3y4owm5q.ipfs.w3s.link",
+    "attributes": [
+      { "trait_type": "Rarity", "value": "Rare" }
+    ]
+  }
+  

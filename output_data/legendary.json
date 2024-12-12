@@ -1,0 +1,13 @@
+[
+  {
+    "name": "NFT #3",
+    "description": "Un NFT unique de ma collection",
+    "image": "https://bafybeicm7mjwblk4tprvw23cdkaaceanb33xs3f5txhn3qs7fvx2ernwf4.ipfs.w3s.link",
+    "attributes": [
+      {
+        "trait_type": "Rarity",
+        "value": "Legendary"
+      }
+    ]
+  }
+]
