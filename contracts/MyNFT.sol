@@ -38,11 +38,11 @@ contract MyNFT is ERC721Enumerable, Ownable {
     // Fonction pour générer l'URI des métadonnées spécifiques en fonction de la rareté
     function generateTokenURI(string memory rarity) internal pure returns (string memory) {
         if (keccak256(abi.encodePacked(rarity)) == keccak256(abi.encodePacked("Common"))) {
-            return "https://bafybeiht42rdj7iurza5j72koodolporuybdlztf34steksqxidkivp75a.ipfs.w3s.link";
+            return "https://bafybeiarwwvcgwy3dxttieck7z7igacwspmlyij65zbirroakh5s33aqsa.ipfs.w3s.link/1.json";
         } else if (keccak256(abi.encodePacked(rarity)) == keccak256(abi.encodePacked("Rare"))) {
-            return "https://bafybeihyjvbp6vlxp5qtglxwqfe4qrcwvyc7ugbeyiqbjv3kio3y4owm5q.ipfs.w3s.link";
+            return "https://bafybeihg543m3yb3n6mrux2nryszuc4jlznju7nur2yjxlvziejbhjtti4.ipfs.w3s.link/2.json";
         } else if (keccak256(abi.encodePacked(rarity)) == keccak256(abi.encodePacked("Legendary"))) {
-            return "https://bafybeicm7mjwblk4tprvw23cdkaaceanb33xs3f5txhn3qs7fvx2ernwf4.ipfs.w3s.link";
+            return "https://bafybeifwbymnuggads4g72f6ma2f3oxt75fxhedityk2tmgqquwg5s4qnm.ipfs.w3s.link/3.json";
         }
         return "";
     }

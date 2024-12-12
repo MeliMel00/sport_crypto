@@ -5,7 +5,7 @@ async function main() {
   console.log("Deploying contracts with the account:", deployer.address);
 
   // Adresse du contrat déployé (remplace avec l'adresse de ton contrat déployé)
-  const myNFTAddress = "0x89a5d8891F1CCff6Aa9Fc70a72Ffbd2cC16E17B7"; // Mets l'adresse du contrat déployé
+  const myNFTAddress = "0xeFE95849631a399A0c2b8bBf860B350f49369374"; // Mets l'adresse du contrat déployé
   const MyNFT = await hre.ethers.getContractAt("MyNFT", myNFTAddress);
 
   // Exemple de mint de NFT pour un utilisateur
